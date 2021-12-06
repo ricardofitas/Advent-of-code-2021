@@ -7,7 +7,7 @@ lin = c.readlines()
 l = lin[0].split("\n")[0].split(",")
 l = [int(l[il]) for il in range(len(l))]
 T = 80
-for _ in range(T):
+for k in range(T):
     for il in range(len(l)):
         l[il] -= 1
         if l[il] == -1:
