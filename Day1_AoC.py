@@ -1,5 +1,5 @@
 
-c = open("__21_d1.txt")
+c = open("__21_d01.txt")
 lin = c.readlines()
 lines_stn = [int(i.split("\n")[0]) for i in lin]
 
